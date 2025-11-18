@@ -1,4 +1,6 @@
-<h1><img src="images/github-header-banner.png"</img></h1>
+<h1 style="text-align: center;">
+    <img src="images/github-header-banner.png" width="70%" />
+</h1>
 
 <h2>Description</h2>
 I genuinely think chatbots are super helpful and save a ton of time, which is why I focused this project on building one. Because I love reading and am always open to new recommendations, I used Amazon Lex to create the "Bookworm Buddy". This chatbot asks for a user's preferred genre and immediately suggests a book. I create the chatbot to  demonstrate skills in the chatbot setup, specifically by inputting the user's goal (Intent) and collecting necessary data (Slots). By choosing the no code method, I focused on configuring the AWS service architecture to allow me to demonstrate the conversational design and logic without relying on complex back-end development.
@@ -10,13 +12,14 @@ I genuinely think chatbots are super helpful and save a ton of time, which is wh
 - <b>Amazon Web Services</b> 
 - <b>Amazon Lex</b>
 
+
 ## Project walk-through:
 
 
 
 ### 1. 🏗️ Create the Chatbot 
   I created the chatbot using Amazon Lex and assigned basic Amazon Lex permissions.
-<img src="images/createbot1.JPG" width="800" />
+<img src="images/createbot1.JPG" width="600" />
   
 ---
 
@@ -24,31 +27,31 @@ I genuinely think chatbots are super helpful and save a ton of time, which is wh
 I created a custom Slot Type named BookGenre (because Genre was not available in the presets) and populated it with a specific list of genres for the bot to understand.
 
 
-<img src="images/customslot.JPG" width="800" />  
+<img src="images/customslot.JPG" width="900" />  
 
 ---  
 ### 3. 💻 Established the Intent
 I taught the bot to recognize a request for a book recommendation by creating the Intent (GetBookRecommendation) and adding training phrases (Utterances) along with different genre types.
 
 
-<img src="images/utter.JPG" width="800" />
+<img src="images/utter.JPG" width="600" />
 
 
-<img src="images/genre.JPG" width="800" />
+<img src="images/genre.JPG" width="600" />
 
 ---
 ### 4. ✅ Set the Final Response
 I configured the Closing Response to deliver the final book recommendation message once the required {Genre} input is successfully collected.
 
 
-<img src="images/closing.JPG" width="800" /> 
+<img src="images/closing.JPG" width="600" /> 
 
 ---
 ### 5. 🚀 Deploy and Test
 The final step was to Save all configurations and build the bot to activate the model for testing.
 
 
-<img src="images/testscreenshot.JPG" width="800" />
+<img src="images/testchat.JPG" width="800" />
 
 
 ---
