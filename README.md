@@ -24,7 +24,7 @@ I genuinely think chatbots are super helpful and save a ton of time, which is wh
 I created a custom Slot Type named BookGenre (because Genre was not available in the presets) and populated it with a specific list of genres for the bot to understand.
 
 
-<img src="images/genre.JPG" width="800" />  replace with customer slot type pic
+<img src="images/customslot.JPG" width="800" />  
 
 ---  
 ### 3. 💻 Established the Intent
@@ -41,7 +41,7 @@ I taught the bot to recognize a request for a book recommendation by creating th
 I configured the Closing Response to deliver the final book recommendation message once the required {Genre} input is successfully collected.
 
 
-<img src="images/trigger.JPG" width="800" /> replace ith closing response
+<img src="images/closing.JPG" width="800" /> 
 
 ---
 ### 5. 🚀 Deploy and Test
